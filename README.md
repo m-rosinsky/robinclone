@@ -39,16 +39,16 @@ The web functionality can be broken down into the following pages:
 - `/api/symbol?ticker={ticker}`: The lookup for stock information
     - Response is as follows:
 
+Status Code: `200`
 ```JSON
-// Status Code: 200
 {
     "symbol": "AAPL",
     "price": 34.12
 }
 ```
 
+Status Code: `400`
 ```JSON
-// Status Code: 400
 {
     "symbol": "AAPL",
     "error": "Error message"
