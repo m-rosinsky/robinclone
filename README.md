@@ -23,8 +23,8 @@ The store for user information will be a local SQLite database contained within 
 
 The web functionality can be broken down into the following pages:
 
-- `/login`: The login page of the application
-- `/register`: The registration page
+- `/auth/login`: The login page of the application
+- `/auth/register`: The registration page
 - `/`: The home page of the application
     - Users must be logged in to view this page
     - Non-logged in users will be redirected to `/login`
